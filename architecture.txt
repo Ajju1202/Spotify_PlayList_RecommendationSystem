@@ -1,0 +1,51 @@
+spotify-recommendation-system/
+│
+├── 📂 data/
+│   ├── raw/
+│   │   └── spotify_dataset.csv          # Original dataset (32,833 tracks)
+│   └── processed/
+│       └── cleaned_data.csv             # Cleaned dataset (32,246 tracks)
+│
+├── 📂 notebooks/
+│   ├── 01_data_exploration.ipynb        # EDA and statistical analysis
+│   ├── 02_clustering_analysis.ipynb     # K-Means clustering
+│   ├── 03_recommendation_system.ipynb   # KNN recommendations
+│   └── spotify_complete_analysis.ipynb  # Full pipeline
+│
+├── 📂 src/
+│   ├── __init__.py
+│   ├── config.py                        # Configuration settings
+│   ├── data_preprocessing.py            # Data cleaning utilities
+│   ├── clustering.py                    # K-Means implementation
+│   ├── recommendation.py                # KNN recommender class
+│   ├── visualization.py                 # Plotting functions
+│   ├── utils.py                         # Helper functions
+│   └── main.py                          # Main execution script
+│
+├── 📂 models/
+│   ├── kmeans_model.pkl                 # Trained K-Means model
+│   ├── knn_model.pkl                    # Trained KNN model
+│   └── scaler.pkl                       # Fitted StandardScaler
+│
+├── 📂 outputs/
+│   ├── figures/
+│   │   ├── correlation_matrix.png
+│   │   ├── cluster_visualization.png
+│   │   ├── elbow_method.png
+│   │   └── genre_distribution.png
+│   └── reports/
+│       ├── cluster_summary.csv
+│       └── analysis_report.html
+│
+├── 📂 tests/
+│   ├── __init__.py
+│   ├── test_preprocessing.py
+│   ├── test_clustering.py
+│   └── test_recommendation.py
+│
+├── 📄 .gitignore
+├── 📄 LICENSE
+├── 📄 README.md
+├── 📄 requirements.txt
+├── 📄 setup.py
+└── 📄 CONTRIBUTING.md
