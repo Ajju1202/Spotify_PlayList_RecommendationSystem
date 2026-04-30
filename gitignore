@@ -1,0 +1,240 @@
+# ============================================
+# PYTHON
+# ============================================
+*.py[cod]
+*$py.class
+*.so
+__pycache__/
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ============================================
+# VIRTUAL ENVIRONMENTS
+# ============================================
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.Python
+.venv/
+
+# ============================================
+# JUPYTER NOTEBOOK
+# ============================================
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+.jupyter/
+*.ipynb_checkpoints/
+
+# ============================================
+# GOOGLE COLAB
+# ============================================
+.colab/
+.config/
+
+# ============================================
+# IDEs & EDITORS
+# ============================================
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+.idea_modules/
+
+# Spyder
+.spyderproject
+.spyproject
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# ============================================
+# OPERATING SYSTEMS
+# ============================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.directory
+.Trash-*
+
+# ============================================
+# DATA FILES (IMPORTANT!)
+# ============================================
+# CSV and Excel files
+*.csv
+*.xlsx
+*.xls
+
+# JSON data
+data/*.json
+*.json
+
+# Pickle files
+*.pkl
+*.pickle
+
+# HDF5 files
+*.h5
+*.hdf5
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# ============================================
+# LARGE DATASETS
+# ============================================
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/external/*
+!data/external/.gitkeep
+datasets/
+*.parquet
+*.feather
+
+# ============================================
+# MODEL FILES
+# ============================================
+models/*.pkl
+models/*.h5
+models/*.joblib
+models/*.pt
+models/*.pth
+*.model
+*.weights
+checkpoints/
+
+# ============================================
+# OUTPUTS & LOGS
+# ============================================
+outputs/
+logs/
+*.log
+*.out
+*.err
+
+# Figures and plots
+outputs/figures/*.png
+outputs/figures/*.jpg
+outputs/figures/*.pdf
+outputs/figures/*.svg
+!outputs/figures/.gitkeep
+
+# Reports
+outputs/reports/*
+!outputs/reports/.gitkeep
+
+# ============================================
+# TESTING
+# ============================================
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+htmlcov/
+
+# ============================================
+# TYPE CHECKING
+# ============================================
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+
+# ============================================
+# DOCUMENTATION
+# ============================================
+docs/_build/
+docs/_static/
+docs/_templates/
+site/
+
+# ============================================
+# ENVIRONMENT VARIABLES
+# ============================================
+.env
+.env.local
+.env.*.local
+.envrc
+
+# ============================================
+# TEMPORARY FILES
+# ============================================
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# ============================================
+# COMPRESSED FILES
+# ============================================
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# ============================================
+# SPOTIFY SPECIFIC
+# ============================================
+# API credentials (NEVER commit!)
+config/credentials.json
+config/secrets.yaml
+spotify_credentials.json
+
+# ============================================
+# KEEP DIRECTORY STRUCTURE
+# ============================================
+!.gitkeep
